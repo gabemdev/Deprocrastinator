@@ -137,7 +137,6 @@
 
 - (void)swipeHandler:(UISwipeGestureRecognizer *)sender {
     if (sender.direction == UISwipeGestureRecognizerDirectionRight) {
-        NSLog(@"Swipe");
         CGPoint location = [sender locationInView:self.taskTableView];
         NSIndexPath *swipeIndexPath = [self.taskTableView indexPathForRowAtPoint:location];
         UITableViewCell *cell = [self.taskTableView cellForRowAtIndexPath:swipeIndexPath];
