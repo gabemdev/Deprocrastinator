@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2CDE256B-8688-4D8A-9F92-A6B88994F91B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Deprocrastinator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>928C4B39827CAC38288D17509B2DC0F584259BFA</key>
+		<string>github.com:gabemdev/Deprocrastinator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Deprocrastinator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>928C4B39827CAC38288D17509B2DC0F584259BFA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:gabemdev/Deprocrastinator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>928C4B39827CAC38288D17509B2DC0F584259BFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>928C4B39827CAC38288D17509B2DC0F584259BFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Deprocrastinator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

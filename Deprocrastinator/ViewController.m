@@ -25,7 +25,7 @@
     [super viewDidLoad];
     self.taskArray = [NSMutableArray arrayWithObjects:@"Finish Mobile Makers", @"Get level 2 certification", @"Create an awesome app", @"Change the world", nil];
     self.isCompleted = NO;
-    self.title = @"Deprocastinator";
+    self.title = @"Deprocastinator".uppercaseString;
 
     self.addTaskButton.layer.cornerRadius = 3;
     // Do any additional setup after loading the view, typically from a nib.

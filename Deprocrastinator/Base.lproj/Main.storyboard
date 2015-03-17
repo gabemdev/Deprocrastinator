@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Deprocastrinator-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="aLu-Ph-JxA">
@@ -118,14 +118,14 @@
                                 <exclude reference="swJ-m3-p3b"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="l8v-5T-NdH"/>
                                 <exclude reference="9Ep-Jz-gX2"/>
                                 <exclude reference="fhg-KU-KhZ"/>
+                                <exclude reference="7eU-TU-0bW"/>
+                                <exclude reference="7se-dd-i2O"/>
                                 <exclude reference="6ud-1o-RTL"/>
                                 <exclude reference="bbW-iM-EhV"/>
                                 <exclude reference="iJc-h1-AUX"/>
-                                <exclude reference="7eU-TU-0bW"/>
-                                <exclude reference="7se-dd-i2O"/>
-                                <exclude reference="l8v-5T-NdH"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -135,18 +135,18 @@
                                 <include reference="swJ-m3-p3b"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="l8v-5T-NdH"/>
                                 <include reference="9Ep-Jz-gX2"/>
                                 <include reference="fhg-KU-KhZ"/>
+                                <include reference="7eU-TU-0bW"/>
+                                <include reference="7se-dd-i2O"/>
                                 <include reference="6ud-1o-RTL"/>
                                 <include reference="bbW-iM-EhV"/>
                                 <include reference="iJc-h1-AUX"/>
-                                <include reference="7eU-TU-0bW"/>
-                                <include reference="7se-dd-i2O"/>
-                                <include reference="l8v-5T-NdH"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="aoO-DY-Nwl">
+                    <navigationItem key="navigationItem" title="Deprocastrinator" id="aoO-DY-Nwl">
                         <barButtonItem key="rightBarButtonItem" title="Edit" id="G2R-5u-m35">
                             <connections>
                                 <action selector="onEditButtonTapped:" destination="vXZ-lx-hvc" id="FfT-mH-Bv8"/>
