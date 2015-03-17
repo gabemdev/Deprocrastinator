@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Task.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *tastTextField;
@@ -29,6 +30,7 @@
 
     self.addTaskButton.layer.cornerRadius = 3;
     // Do any additional setup after loading the view, typically from a nib.
+
 }
 
 #pragma mark - UITableViewDataSource
@@ -101,6 +103,16 @@
     }
 }
 
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 1)];
+    [view setBackgroundColor:[UIColor colorWithRed:0.23 green:0.47 blue:0.85 alpha:1.00]];
+    return view;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 1.0;
+}
 
 #pragma mark - Actions
 - (IBAction)onEditButtonTapped:(UIBarButtonItem *)sender {
@@ -117,6 +129,7 @@
     }
     [self.taskTableView reloadData];
 }
+
 - (IBAction)onAddButtonTapped:(id)sender {
     if ([self.tastTextField.text isEqualToString:@""]) {
 
@@ -124,6 +137,9 @@
         [alert show];
 
     } else {
+        Task *task = [Task new];
+        task.taskName = self.tastTextField.text;
+
 
         NSString *newTask = self.tastTextField.text;
         [self.taskArray addObject:newTask];

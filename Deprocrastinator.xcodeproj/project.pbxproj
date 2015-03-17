@@ -14,6 +14,7 @@
 		6D47B9A51AB747B600783BB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D47B9A41AB747B600783BB5 /* Images.xcassets */; };
 		6D47B9A81AB747B600783BB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D47B9A61AB747B600783BB5 /* LaunchScreen.xib */; };
 		6D47B9B41AB747B600783BB5 /* DeprocrastinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D47B9B31AB747B600783BB5 /* DeprocrastinatorTests.m */; };
+		6DE4D28E1AB87CA2003D84CE /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4D28D1AB87CA2003D84CE /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6D47B9AD1AB747B600783BB5 /* DeprocrastinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeprocrastinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D47B9B21AB747B600783BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D47B9B31AB747B600783BB5 /* DeprocrastinatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeprocrastinatorTests.m; sourceTree = "<group>"; };
+		6DE4D28C1AB87CA2003D84CE /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		6DE4D28D1AB87CA2003D84CE /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				6D47B9A41AB747B600783BB5 /* Images.xcassets */,
 				6D47B9A61AB747B600783BB5 /* LaunchScreen.xib */,
 				6D47B9971AB747B600783BB5 /* Supporting Files */,
+				6DE4D28C1AB87CA2003D84CE /* Task.h */,
+				6DE4D28D1AB87CA2003D84CE /* Task.m */,
 			);
 			path = Deprocrastinator;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE4D28E1AB87CA2003D84CE /* Task.m in Sources */,
 				6D47B9A01AB747B600783BB5 /* ViewController.m in Sources */,
 				6D47B99D1AB747B600783BB5 /* AppDelegate.m in Sources */,
 				6D47B99A1AB747B600783BB5 /* main.m in Sources */,
@@ -412,6 +418,7 @@
 				6D47B9B91AB747B600783BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D47B9BA1AB747B600783BB5 /* Build configuration list for PBXNativeTarget "DeprocrastinatorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				6D47B9BC1AB747B600783BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
